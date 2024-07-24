@@ -4,7 +4,7 @@ function headerActive(element) {
 	element.style.backgroundColor = "#fff";
 
 	element.querySelector(".header__container-logo-bg").style.backgroundImage =
-		"url(../img/Ford-logo.svg)";
+		"url(../img/ford-logo.svg)";
 
 	element
 		.querySelectorAll(".header__container-navs-wrap-link")
@@ -26,7 +26,7 @@ function headerActive(element) {
 function headerRemoveActive(element) {
 	element.style.backgroundColor = "";
 	element.querySelector(".header__container-logo-bg").style.backgroundImage =
-		"url(../img/Ford-logo-white.svg)";
+		"url(../img/ford-white-logo.svg)";
 	// element.style.backgroundImage = "url(../img/Ford-logo.svg)";
 
 	element

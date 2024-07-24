@@ -71,7 +71,7 @@
 
 		&-logo {
 			&-bg {
-				background-image: url("../../img/Ford-logo-white.svg");
+				background-image: url(../../img/Ford-logo-white.svg);
 				background-repeat: no-repeat;
 				background-position: 0 0;
 				display: inline-block;
@@ -111,7 +111,7 @@
 				&-icon.account {
 					// padding: 1rem 1rem;
 					span {
-						background-image: url("../../img/account-outline-white.svg");
+						background-image: url(../../img/account-outline-white.svg);
 						background-repeat: no-repeat;
 						background-size: 100% 100%;
 						background-position: center;
@@ -127,7 +127,7 @@
 
 				&-icon.global {
 					span {
-						background-image: url("../../img/globe-white.svg");
+						background-image: url(../../img/globe-white.svg);
 						background-repeat: no-repeat;
 						background-size: 100% 100%;
 						background-position: center;
@@ -139,7 +139,7 @@
 
 				&-icon.search {
 					span {
-						background-image: url("../../img/search-white.svg");
+						background-image: url(../../img/search-white.svg);
 						background-repeat: no-repeat;
 						background-size: 100% 100%;
 						background-position: center;
@@ -209,19 +209,19 @@
 }
 
 .header:hover .header__container-logo-bg {
-	background-image: url("../../img/Ford-logo.svg");
+	background-image: url(../../img/Ford-logo.svg);
 }
 
 .header:hover .header__container-icon-links-wrap-icon.account span {
-	background-image: url("../../img/account-outline.svg");
+	background-image: url(../../img/account-outline.svg);
 }
 
 .header:hover .header__container-icon-links-wrap-icon.global span {
-	background-image: url("../../img/globe.svg");
+	background-image: url(../../img/globe.svg);
 }
 
 .header:hover .header__container-icon-links-wrap-icon.search span {
-	background-image: url("../../img/search.svg");
+	background-image: url(../../img/search.svg);
 }
 
 .header:active .header__container-navs-wrap-link {
